@@ -1,0 +1,175 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.intro {
+    width: 100%;
+    padding: 300px 15px 150px 15px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(51, 51, 51, 0.6), rgba(51, 51, 51, 0.6) ),url(images/intro.jpg);
+}
+
+.intro h1 {
+	margin: 0 0 15px 0;
+	font-weight: 600;
+	font-size: 38px;
+	color: #333333;
+}
+
+.intro p {
+	margin-bottom: 30px;
+}
+
+.intro-text {
+	background-color: rgba(255, 255, 255, 0.8);
+	border-radius: 6px;
+	padding: 20px 20px;
+	font-size: 18px;
+}
+
+.btn-custom, .btn-custom:active, .btn-custom:visited {
+	padding: 10px 25px;
+	background-color: #5eafff;
+	transition-duration: 400ms;
+	border-radius: 6px;
+	border: none;
+	font-size: 16px;
+	box-shadow: 2px 2px 2px #e2e2e2;
+	color: #fff;
+	font-weight: 600;
+}
+
+.btn-custom:hover {
+	background-color: #99ccff;
+	text-decoration: none;
+	color: #fff;
+	transform: scale(1.02);
+}
+
+.three {
+	text-align: center;
+	padding: 70px 0;
+}
+
+.three p {
+	font-size: 15px;
+}
+
+.three h1 {
+	font-weight: 600;
+	padding-bottom: 20px;
+	font-size: 38px;
+}
+
+.three-icon {
+	font-size: 40px;
+	color: #99ccff;
+}
+
+
+.divider::after {
+   display: block;
+   content: "";
+   width: 60px;
+   height: 2px;
+   margin: 15px auto;
+   background-color: #99ccff;
+   margin-top: 25px;
+}
+
+.three-keys {
+	padding: 30px 20px;
+}
+
+.three-keys h3 {
+	text-transform: uppercase;
+}
+
+.diet {
+	text-align: left;
+	padding-bottom: 70px;
+}
+
+.diet h2 {
+	text-align: left;
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+.diet p {
+	font-size: 15px;
+}
+
+.book {
+	text-align: center;
+}
+
+.book h1 {
+	font-weight: 600;
+	padding-bottom: 20px;
+}
+
+.book-details {
+	text-align: left;
+	font-size: 15px;
+}
+
+.book-details p {
+	padding: 0 25px;
+	display: flex;
+	align-items: center;
+}
+
+.glyphicon {
+	color: #99ccff;
+	font-size: 17px;
+	padding-right: 7px;
+}
+
+.more {
+	padding: 20px 0;
+	font-size: 15px;
+}
+
+.buy-book {
+	width: 100%;
+    padding: 200px 15px 200px 15px;
+    background-size: cover;
+    background-position: center;
+    background-image: linear-gradient(rgba(51, 51, 51, 0.85), rgba(51, 51, 51, 0.85) ),url(images/food.jpg);
+}
+
+.buy-book p {
+	font-weight: 600;
+	font-size: 38px;
+	color: #fff;
+	padding-left: 40px;
+}
+
+.buy-book .btn-custom {
+	margin-left: 40px;
+	box-shadow: none;
+}
+
+.contact {
+	text-align: center;
+	padding-top: 30px;
+}
+
+.icons {
+	font-size: 30px;
+	color: #2a2a2a;
+	transition-duration: 400ms;
+}
+
+.icons:hover {
+	color: #99ccff;
+	transform: scale(1.02);
+	text-decoration: none;
+}
+
+.fa-instagram {
+	padding-right: 20px;
+}
+
